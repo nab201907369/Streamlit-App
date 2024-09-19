@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 # Load and clean the data
-data = pd.read_csv("C:\\Users\\student\\Desktop\\Streamlit Assignment\\Tourism Lebanon 2023.csv")
+data = pd.read_csv('Tourism Lebanon 2023.csv')
 
 # Data Cleaning
 columns_to_keep = [
